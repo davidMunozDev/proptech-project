@@ -1,0 +1,49 @@
+:root {
+  --fs-title-1: 2rem;
+  --fs-title-2: 1.5rem;
+  --fs-title-3: 1.2rem;
+  --font-size-base: 1rem;
+  --theme-body-txt: #353539;
+  --search-size-mx-h: 3rem;
+  --zIndex-header: 20;
+  --zIndex-component: 5;
+  --brand-color_1: rgb(234, 235, 247);
+  --brand-color_2: #303ab2;
+  --brand-color_3: #cbcdeb;
+  --brand-color_4: #777;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: var(--font-size-base);
+  color: var(--theme-body-txt);
+}
+a {
+  text-decoration: none;
+}
+
+
+h1 {
+  display: block;
+  font-size: var(--fs-title-1);
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: var(--fs-title-2);
+  font-weight: bold;
+}

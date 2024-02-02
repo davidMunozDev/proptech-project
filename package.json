@@ -1,0 +1,55 @@
+{
+  "name": "david-frontend-challenge",
+  "private": true,
+  "version": "1.2",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest --run --reporter verbose",
+    "test:watch": "vitest",
+    "lint": "eslint --max-warnings=0 src",
+    "format": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@here/maps-api-for-javascript": "^1.30.17",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-icons": "^4.4.0",
+    "react-slick": "^0.29.0",
+    "simple-element-resize-detector": "^1.3.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.5",
+    "swr": "^1.3.0",
+    "wouter": "^2.8.0-alpha.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.3",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.1",
+    "fetch": "^1.1.0",
+    "husky": "^8.0.1",
+    "jest-styled-components": "^7.0.8",
+    "jsdom": "^20.0.0",
+    "msw": "^0.43.0",
+    "prettier": "^2.7.1",
+    "vite": "^2.9.9",
+    "vitest": "^0.15.2",
+    "whatwg-fetch": "^3.6.2"
+  }
+}
